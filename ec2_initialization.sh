@@ -4,9 +4,9 @@ sudo apt install python3-pip -y
 pip install "dask[complete]" --no-cache-dir
 sudo apt install awscli -y
 pip install dask-ml
-export AWS_ACCESS_KEY_ID=ASIAXQPRUKICJWD2SPEH
-export AWS_SECRET_ACCESS_KEY=z9OZdSvuJCbsjYsHwuvacrwl+VSHxDHvIHnc0IBb
-export AWS_SESSION_TOKEN=FwoGZXIvYXdzENT//////////wEaDE8mu2EYF4Y0+gDzmiKsAdU4AlYeXdKCyjMBH/z5KVQP3SgAskWsGuwsYsRI9XZj+EwqJyBo370ECozbViUkNld2EgFELwysiAplq9NguDeh3Ph8JpPq/v0J6nme7ipWB1VAyRl4vSau6mpY0MvXhUk+8ctyS48+g5u8Nt1nB78REpnkx3kQlXJLuYypYeiKotwvmIueFhF7CMzj71/WFsf/o+bcxFZfbIHaADYMWtp4Mx/vHMfR7kq8fJkovc7GhQYyLY83mcPqo8Ow8P5jX8Q+TkPMKnYo2VcK8wjjGvNuVNjQiQsFBog/5tfaozJ96g==
+export AWS_ACCESS_KEY_ID=ASIAXQPRUKICDMBQBLG7
+export AWS_SECRET_ACCESS_KEY=ATBYUOmrL5+w2g+FAPSpSjmtq1BCpheBNrPxXn4L
+export AWS_SESSION_TOKEN=FwoGZXIvYXdzENT//////////wEaDOIU2p+SqcqQVj4DIyKsARUDbT51+uNJaFIVXmuAYC0e62JkmOwxNSHSEXjZdItP+G1o+D9a2pE1icpWahEPwppXfJB/d1Sj1qoHCSjRB+ig07Oi5B0703KCQSJVjZYuu9hZVkOTU3D8/cyy/iiRZASK3Rk2s944zxicwsQVreWVnkj9scZjzAAY/I/+1/RegPvzn1khBq0UA+yYoU+gF79xEWGJkNmMeSnB4WGdhePUtQVhV2V18/T++wMoxs/GhQYyLVhHggebn48IYtJoDuayrG/foU71EOVDV/TGTY1vopVW/hvVbzE6nw/HsW4tIQ==
 aws s3 cp s3://ds102-maxandemily-scratch/historical_data_2009Q1.txt historical_data_2009Q1.txt
 aws s3 cp s3://ds102-maxandemily-scratch/historical_data_time_2009Q1.txt historical_data_time_2009Q1.txt
 aws s3 cp s3://ds102-maxandemily-scratch/feature_prep.py feature_prep.py
