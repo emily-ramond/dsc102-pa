@@ -5,9 +5,9 @@ pip install "dask[complete]" --no-cache-dir
 sudo apt install awscli -y
 pip install dask-ml
 pip install pyarrow
-export AWS_ACCESS_KEY_ID=ASIAXQPRUKICDMBQBLG7
-export AWS_SECRET_ACCESS_KEY=ATBYUOmrL5+w2g+FAPSpSjmtq1BCpheBNrPxXn4L
-export AWS_SESSION_TOKEN=FwoGZXIvYXdzENT//////////wEaDOIU2p+SqcqQVj4DIyKsARUDbT51+uNJaFIVXmuAYC0e62JkmOwxNSHSEXjZdItP+G1o+D9a2pE1icpWahEPwppXfJB/d1Sj1qoHCSjRB+ig07Oi5B0703KCQSJVjZYuu9hZVkOTU3D8/cyy/iiRZASK3Rk2s944zxicwsQVreWVnkj9scZjzAAY/I/+1/RegPvzn1khBq0UA+yYoU+gF79xEWGJkNmMeSnB4WGdhePUtQVhV2V18/T++wMoxs/GhQYyLVhHggebn48IYtJoDuayrG/foU71EOVDV/TGTY1vopVW/hvVbzE6nw/HsW4tIQ==
+export AWS_ACCESS_KEY_ID=ASIAXQPRUKICLH6M3S6O
+export AWS_SECRET_ACCESS_KEY=NoVdwWrj/JF9nTNM2i6IZgeSEJo4JKHjO2eP+fu4
+export AWS_SESSION_TOKEN=FwoGZXIvYXdzEBMaDF/iRBMSYgIyaTVoZiKsAQFuDZj1cHWsZ36TGRFfijKuV/gRaKVOFbt2FY+f1rvo1I12pxhdi+LyGcPdshIk5W8YKaqCpahE8BEOu1i46IKAgOWkpTx3rW0jrmZZgIajOPU8b3EldG9pEnQllPSd1x8Sg3Kk9vs6qgcxzkjYJhmAUDEQnmiC3mcvn2a8mDwRyDn6/JfSiUk62Aot2iIop1t+PJ3bzVyI08nR/JwBExw/UCv7hxOZwhCAjqAo5LrUhQYyLd3X8gwEY7OzZBBTvGsL7+u736DY3CMqDW4NbWnTgVUmrx1P4T6mpkufa0kLAg==
 aws s3 cp s3://ds102-maxandemily-scratch/historical_data_2009Q1.txt historical_data_2009Q1.txt
 aws s3 cp s3://ds102-maxandemily-scratch/historical_data_time_2009Q1.txt historical_data_time_2009Q1.txt
 aws s3 cp s3://ds102-maxandemily-scratch/feature_prep.py feature_prep.py
